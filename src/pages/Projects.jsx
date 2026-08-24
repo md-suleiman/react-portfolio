@@ -1,14 +1,15 @@
 import { useState } from 'react';
 import { projectsData, categories } from '../data/projects';
 import ProjectGrid from '../components/ProjectGrid/ProjectGrid';
- 
+import './Projects.css';
+
 function Projects() {
 const [activeFilter, setActiveFilter] = useState('all');
- 
-const visible = activeFilter === 'all'
-    ? projectsData
+
+const visible = activeFilter === 'all' 
+    ? projectsData 
     : projectsData.filter(p => p.category === activeFilter);
- 
+
 return (
     <div className='projects-page container'>
         <div className='projects-header'>
@@ -25,11 +26,11 @@ return (
                 ))}
             </div>
         </div>
- 
+
         <ProjectGrid projects={visible} />
     </div>
 );
- 
- 
+
+
 }
 export default Projects;
