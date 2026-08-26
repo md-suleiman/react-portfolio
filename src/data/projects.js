@@ -3,19 +3,19 @@ export const categories = ['all', 'web', 'design'];
 export const projectsData = [
 {
 id: 1,
-title: 'Weather App',
-description: 'Real-time weather for any city',
-longDesc: 'A fully responsive weather application that shows current conditions and 5-day forecasts.',
-tech: ['React', 'API'],
+title: 'Roadscan',
+description: 'Smartphone-based Pothole detection and Reporting System.',
+longDesc: 'A smartphone-based road monitoring system that detects, classifies, maps and reports potholes using motion sensors and GPS.',
+tech: ['React', 'JavaScript', 'Firebase', 'Leaflet','Web APIs'],
 category: 'web',
 featured: true,
-liveUrl: '#',
-githubUrl: '#'
+liveUrl: 'https://roadscan.onrender.com',
+githubUrl: 'https://github.com/md-suleiman/Roadscan'
 },
 {
 id: 2,
 title: 'Portfolio Site',
-description: 'This very portfolio website',
+description: 'This very portfolio website.',
 longDesc: 'A multi-page React portfolio with routing, dark mode, and live GitHub stats.',
 tech: ['React', 'CSS'],
 category: 'web',
@@ -36,8 +36,14 @@ githubUrl: '#'
 }
 ];
 export const SKILLS = [
+  { name: 'C/C++', level: 'Advanced', icon: '©️' },
+  { name: 'Python', level: 'Intermediate', icon: '🐍' },
+  { name: 'SQL', level: 'Intermediate', icon: '🛢️' },
   { name: 'HTML5', level: 'Advanced', icon: '🌐' },
-  { name: 'CSS3', level: 'Advanced', icon: '🎨' },
-  { name: 'JavaScript', level: 'Advanced', icon: '⚡' },
-  { name: 'React', level: 'Intermediate', icon: '⚛️' }
+  { name: 'CSS3', level: 'Intermediate', icon: '🎨' },
+  { name: 'JavaScript', level: 'Intermediate', icon: '⚡' },
+  { name: 'React', level: 'Intermediate', icon: '⚛️' },
+  { name: 'AutoCAD', level: 'Intermediate', icon: '📐' }, 
+  { name: 'Canva', level: 'Intermediate', icon: '🖌️' },
+  
 ];

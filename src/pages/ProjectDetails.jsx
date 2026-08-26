@@ -27,7 +27,7 @@ function ProjectDetails() {
       <div className="project-details-content">
         <div>
           <h2>About this project</h2>
-          <p>{project.description}. This project is a portfolio example built to demonstrate practical frontend development and thoughtful user experiences.</p>
+          <p>{project.description}.</p>
         </div>
         <div>
           <h2>Technologies</h2>
