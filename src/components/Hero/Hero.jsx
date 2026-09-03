@@ -16,7 +16,7 @@ function Hero() {
         <section className="hero-section">
             <div className="hero-content">
                 <h1>{greeting}, I'm <span className="highlight"> Suleiman</span> 🤗</h1>
-                <p className="tagline">CSE Student | Tech Enthusiast | Developer</p>
+                <p className="tagline">CSE Student | Developer | Tech Enthusiast</p>
                 
                 <div className="hero-buttons">
                     <Link to="/projects" className="btn btn-primary">View My Work</Link>

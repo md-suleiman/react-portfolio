@@ -43,7 +43,6 @@ export const SKILLS = [
   { name: 'CSS3', level: 'Intermediate', icon: '🎨' },
   { name: 'JavaScript', level: 'Intermediate', icon: '⚡' },
   { name: 'React', level: 'Intermediate', icon: '⚛️' },
-  { name: 'AutoCAD', level: 'Intermediate', icon: '📐' }, 
-  { name: 'Canva', level: 'Intermediate', icon: '🖌️' },
+  { name: 'Git/GitHub', level: 'Intermediate', icon: '🚀' }, 
   
 ];

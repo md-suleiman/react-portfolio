@@ -9,7 +9,8 @@ function AboutSection() {
         </div>
         <div className='about-copy'>
           <h1>About Me</h1>
-          <p>Hi! I'm Suleiman, a Computer Science Engineering student building a strong foundation in programming, problem solving, and core computer science concepts. Focused on learning through hands-on projects and turning ideas into practical, real-world solutions.</p>
+          <p> Hi! I'm Suleiman, a Computer Science Engineering student interested in software development and technology. I enjoy learning through hands-on projects, strengthening my programming and problem-solving skills, and turning ideas into practical, real-world solutions.
+</p>
         </div>
       </div>
     </section>
