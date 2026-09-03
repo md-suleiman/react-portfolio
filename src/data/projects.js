@@ -44,5 +44,6 @@ export const SKILLS = [
   { name: 'JavaScript', level: 'Intermediate', icon: '⚡' },
   { name: 'React', level: 'Intermediate', icon: '⚛️' },
   { name: 'Git/GitHub', level: 'Intermediate', icon: '🚀' }, 
+  ({ name: 'Firebase', level: 'Beginner', icon: '🔥' }),
   
 ];
