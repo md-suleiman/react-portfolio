@@ -20,7 +20,7 @@ A personal portfolio website built with React to showcase my projects, skills, a
 
 ## 🛠️ Tech Stack
 
-**Frontend:** React, JavaScript
-**Build Tool:** Vite
-**Styling:** CSS
+**Frontend:** React, JavaScript <br>
+**Build Tool:** Vite <br>
+**Styling:** CSS <br>
 **Version Control:** Git & GitHub
